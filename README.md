@@ -4,4 +4,4 @@ This site is not responsive yet, so it can be viewed properly only thorugh a lap
 
 It is a demo version as of now, with future plans for design improvements and feature addition whenever I get time.
 
-You can visit the website at: [agnishbhattacharya-demo1.netlify.app](agnishbhattacharya-demo1.netlify.app)
+You can visit the website at: [agnishbhattacharya-demo1.netlify.app](https://agnishbhattacharya-demo1.netlify.app/)
