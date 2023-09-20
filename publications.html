@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> 
+</head>
+
+<body>
+<section class="header">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="experiences.html">Experiences</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a target="_blank" href="https://drive.google.com/file/d/1gBwzzgZc0f8tJiDR4asa6f45Lq86Kwri/view?usp=sharing">Resume</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+<div class="publications-bg">
+</div>
+<div class="publications-text">
+    <h1 class="light">Publications</h1>
+</div>
+    
+</section>
+
+<section class="publications-list">
+    <!-- <div class="conferences", style="padding: 15px;">
+        <h3>Conferences:</h3>
+    </div>
+    <div class="conference-list">
+        <ol reversed>
+
+            <li>Ayan Kumar Bhunia, Viswanatha Reddy Gajjala, Subhadeep Koley, <b>Rohit Kundu</b>, Aneeshan Sain, Tao Xiang, Yi-Zhe Song, "Doodle It Yourself: Class Incremental Learning by Drawing a Few Sketches," <em>IEEE Conference on Computer Vision and Pattern Recognition</em> (<b>CVPR 2022</b>).
+                <br>
+                <a target="_blank" href="https://arxiv.org/pdf/2203.14843.pdf"><b>PDF</b></a> | <a target="_blank" href="https://github.com/AyanKumarBhunia/DIY-FSCIL"><b>Source Code</b></a>
+            </li>
+
+            <li>
+                Hritam Basak, <b>Rohit Kundu</b>, Anish Agarwal, Shreya Giri, "<a target="_blank" href="https://doi.org/10.1109/ICIIS51140.2020.9342688">Single Image Super-Resolution using Residual Channel Attention Network</a>," <em>2020 IEEE 15th International Conference on Industrial and Information Systems (ICIIS)</em> (2021).
+                <br>
+                <a target="_blank" href="https://www.researchgate.net/profile/Hritam-Basak/publication/349174929_Single_Image_Super-Resolution_using_Residual_Channel_Attention_Network/links/6056f940a6fdccbfeaf543fd/Single-Image-Super-Resolution-using-Residual-Channel-Attention-Network.pdf"><b>PDF</b></a> | <a target="_blank" href="https://github.com/Rohit-Kundu/Single-Image-Super-Resolution"><b>Source Code</b></a>
+            </li>
+
+            <li>Hritam Basak, <b>Rohit Kundu</b>, "<a target="_blank" href="https://doi.org/10.1007/978-981-16-0425-6_26">Comparative Study of Maturation Profiles of Neural Cells in Different Species with the Help of Computer Vision and Deep Learning</a>," <em>Advances in Signal Processing and Intelligent Recognition Systems, SIRS 2020, Communications in Computer and Information Science</em>, Springer (2021).
+                <br>
+                <a target="_blank" href="https://arxiv.org/pdf/2203.14843.pdf"><b>PDF</b></a> | <a target="_blank" href="https://github.com/AyanKumarBhunia/DIY-FSCIL"><b>Source Code</b></a>
+            </li>
+
+        </ol>
+    </div> -->
+    
+    <div class="journals", style="padding: 15px;">
+        <h3>Journals:</h3>
+    </div>
+    <div class="journal-list">
+        <ol reversed>
+
+            <li><b>Agnish Bhattacharya</b>, Biswajit Saha, Soham Chattopadhyay, Ram Sarkar, "<b>Deep Feature Selection Using Adaptive-Beta Hill Climbing Aided Whale Optimization Algorithm for Lung and Colon Cancer Detection</b>," Biomedical Signal Processing and Control, Elsevier (2023).
+                <br>
+                <a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S1746809423001258?via%3Dihub"><b>PDF</b></a> | <a target="_blank" href="https://github.com/raj-1411/AdBet-WOA"><b>Source Code</b></a>
+            </li>
+
+            <!-- <li>Hritam Basak, <b>Rohit Kundu</b>, Ram Sarkar, "<a target="_blank" href="https://doi.org/10.1016/j.patcog.2022.108673">MFSNet: A Multi Focus Segmentation Network for Skin Lesion Segmentation</a>," <em>Pattern Recognition</em>, Elsevier (2022).
+                <br>
+                <a target="_blank" href="https://arxiv.org/pdf/2203.14341.pdf"><b>PDF</b></a> | <a target="_blank" href="https://github.com/Rohit-Kundu/MFSNet"><b>Source Code</b></a>
+            </li> -->
+
+        </ol>
+    </div>
+    
+</section>
+
+
+<section class="footer">
+    <footer class="px-sm-1 bg-dark fixed-bottom">
+        <a target="_blank" href="https://scholar.google.com/citations?user=eOh1VbsAAAAJ&hl=en"><img src="images/gscholar.png"></a>
+        <a target="_blank" href="https://github.com/AGNISH13"><img src="images/github.png"></a>
+        <a target="_blank" href="https://orcid.org/0000-0003-0098-505X"><img src="images/orcid.png"></a>
+        <a target="_blank" href="https://www.linkedin.com/in/agnish-bhattacharya-451547204/"><img src="images/linkedin.jpg"></a>
+    </footer>
+</section>
+
+
+<!--------JavaScript for Toggle Menu------->
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>

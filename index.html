@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Agnish Bhattacharya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+
+<section class="header">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="experiences.html">Experiences</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a target="_blank" href="https://drive.google.com/file/d/1gBwzzgZc0f8tJiDR4asa6f45Lq86Kwri/view?usp=sharing">Resume</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+<div class="text-box">
+    <img  class="oval-image" src="images/Agnish.jpg", ALIGN="left", style="padding: 15px;">
+    <h1><br>About Me:<br></h1>
+    <p> 
+        I am Agnish Bhattacharya, a final year undergraduate at the Department of Electrical Engineering, Jadavpur University, India.
+    </p>
+    <p>
+        <br>
+        A tech enthusiast, an ardent quizzer, and a passionate learner, I have a keen interest in Computer Vision, Medical Image Processing, and the applications of Artificial Intelligence in Robotics. I primarily code in Python and use the PyTorch, Keras, and TensorFlow libraries for deep learning. I have published papers in reputed peer-reviewed journals and conferences (<a target="_blank" href="https://scholar.google.com/citations?user=eOh1VbsAAAAJ&hl=en">Google Scholar</a>).
+    </p>
+    <p>
+        <br>
+        Presently, I am doing undergraduate research in the above-mentioned fields in addition to my course studies, as well as learning different data structures and algorithms not related to research as such, but helping me to develop the necessary skills and intellect.
+    </p>
+    
+    <table class="globe" cellpadding="0" cellspacing="4">
+        <!-- 4 columns -->
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td rowspan="4" colspan="0" halign="right" width=200px>
+            <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=LxQUIypIkZ1pWk2Lbi_NSjeyy9wxLLZRKvGRBw_r2pg"></script>
+          </td>
+        </tr>
+    </table>
+    
+</div>
+
+</section>
+
+<section class="Colleges">
+    <p>I have had the opportunity to do research work at the following Institutions:</p>
+    <div class="row">
+        <div class="college-col">
+            <img src="images/LUMC.png">
+            <div class="layer">
+                <h3><a href="https://www.lumc.nl/en/">Leiden University Medical Center, Netherlands</a></h3>
+            </div>
+        </div>
+        <div class="college-col">
+            <img src="images/IITK_logo.png">
+            <div class="layer">
+                <h3><a href="https://www.iitk.ac.in/">Indian Institute of Technology Kanpur, India</a></h3>
+            </div>
+        </div>
+        <div class="college-col">
+            <img src="images/ISI_logo.png">
+            <div class="layer">
+                <h3><a href="https://www.isical.ac.in/">Indian Statistical Institute Kolkata, India</a></h3>
+            </div>
+        </div>
+        <div class="college-col">
+            <img src="images/ju.png">
+            <div class="layer">
+                <h3><a href="http://www.jaduniv.edu.in/view_department.php?deptid=59 ">Jadavpur University, India</a></h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!------Footer----->
+<section class="footer">
+    <footer class="px-sm-1 bg-dark position-relative">
+        <a target="_blank" href="https://scholar.google.com/citations?user=eOh1VbsAAAAJ&hl=en"><img src="images/gscholar.png"></a>
+        <a target="_blank" href="https://github.com/AGNISH13"><img src="images/github.png"></a>
+        <a target="_blank" href="https://orcid.org/0000-0003-0098-505X"><img src="images/orcid.png"></a>
+        <a target="_blank" href="https://www.linkedin.com/in/agnish-bhattacharya-451547204/"><img src="images/linkedin.jpg"></a>
+    </footer>
+</section>
+
+
+<!--------JavaScript for Toggle Menu------->
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-175793439-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-175793439-1');
+</script>
+<!-- End Google Analytics -->
+    
+</body>
+</html>

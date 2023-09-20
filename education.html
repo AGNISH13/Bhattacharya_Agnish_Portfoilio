@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> 
+</head>
+
+<body>
+<section class="header">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="experiences.html">Experiences</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a target="_blank" href="https://drive.google.com/file/d/1gBwzzgZc0f8tJiDR4asa6f45Lq86Kwri/view?usp=sharing">Resume</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+<div class="education-bg">
+</div>
+<div class="education-text">
+    <h1 class="light">Education</h1>
+</div>
+    
+</section>
+
+<section class="education">
+    <div class="ju", style="padding: 15px;">
+        <h3><a target="_blank" href="http://www.jaduniv.edu.in/view_department.php?deptid=58">Department of Electrical Engineering, Jadavpur University</a></h3>
+        <ul type="square">
+            <li>CGPA <em>(2020-2024)</em> : <b>9.23</b>/10</li>
+        </ul>
+    </div>
+
+    <div class="sphs", style="padding: 15px;">
+        <h3><a target="_blank" href="http://sxipanihati.org/">St. Xavier's Institution, Panihati</a></h3>
+        <ul type="square">
+            <li>Indian School Certificate Examination (ISC) <em>(2020)</em> : <b>98.25%</b></li>
+            <li>Indian Certificate of Secondary Education Examination (ICSE) <em>(2018)</em> : <b>98.2%</b></li>
+        </ul>
+    </div>
+    
+</section>
+
+
+<!------Footer----->
+<section class="footer">
+    <footer class="px-sm-1 bg-dark fixed-bottom">
+        <a target="_blank" href="https://scholar.google.com/citations?user=eOh1VbsAAAAJ&hl=en"><img src="images/gscholar.png"></a>
+        <a target="_blank" href="https://github.com/AGNISH13"><img src="images/github.png"></a>
+        <a target="_blank" href="https://orcid.org/0000-0003-0098-505X"><img src="images/orcid.png"></a>
+        <a target="_blank" href="https://www.linkedin.com/in/agnish-bhattacharya-451547204/"><img src="images/linkedin.jpg"></a>
+    </footer>
+</section>
+
+
+<!--------JavaScript for Toggle Menu------->
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
